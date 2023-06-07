@@ -1,0 +1,41 @@
+﻿@model IEnumerable<GRC.Domain.Entities.Organisation>
+
+@{
+    ViewData["Title"] = "Organisations";
+}
+
+<h1>Organisations</h1>
+
+<p>
+    <a asp-action="Create">Nouvelle Organisation</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.OrganisationId) nom de propriété
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nom)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.OrganisationId) valeur de la propriété
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nom)
+            </td>
+            <td>
+                @Html.ActionLink("Modifier", "Edit", new {  id=item.OrganisationId  }) |
+                @*@Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |*@
+                @Html.ActionLink("Supprimer", "Delete", new { id=item.OrganisationId })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

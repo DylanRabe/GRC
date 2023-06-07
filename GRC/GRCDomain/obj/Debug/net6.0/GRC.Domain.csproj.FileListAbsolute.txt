@@ -1,0 +1,15 @@
+C:\Users\drabemanantsoa\Documents\GRCDylan\GRC\GRCDomain\bin\Debug\net6.0\GRC.Domain.deps.json
+C:\Users\drabemanantsoa\Documents\GRCDylan\GRC\GRCDomain\bin\Debug\net6.0\GRC.Domain.dll
+C:\Users\drabemanantsoa\Documents\GRCDylan\GRC\GRCDomain\bin\Debug\net6.0\GRC.Domain.pdb
+C:\Users\drabemanantsoa\Documents\GRCDylan\GRC\GRCDomain\bin\Debug\net6.0\GRC.SharedKernel.dll
+C:\Users\drabemanantsoa\Documents\GRCDylan\GRC\GRCDomain\bin\Debug\net6.0\GRC.SharedKernel.pdb
+C:\Users\drabemanantsoa\Documents\GRCDylan\GRC\GRCDomain\obj\Debug\net6.0\GRC.Domain.csproj.AssemblyReference.cache
+C:\Users\drabemanantsoa\Documents\GRCDylan\GRC\GRCDomain\obj\Debug\net6.0\GRC.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\drabemanantsoa\Documents\GRCDylan\GRC\GRCDomain\obj\Debug\net6.0\GRC.Domain.AssemblyInfoInputs.cache
+C:\Users\drabemanantsoa\Documents\GRCDylan\GRC\GRCDomain\obj\Debug\net6.0\GRC.Domain.AssemblyInfo.cs
+C:\Users\drabemanantsoa\Documents\GRCDylan\GRC\GRCDomain\obj\Debug\net6.0\GRC.Domain.csproj.CoreCompileInputs.cache
+C:\Users\drabemanantsoa\Documents\GRCDylan\GRC\GRCDomain\obj\Debug\net6.0\GRC.Domain.csproj.CopyComplete
+C:\Users\drabemanantsoa\Documents\GRCDylan\GRC\GRCDomain\obj\Debug\net6.0\GRC.Domain.dll
+C:\Users\drabemanantsoa\Documents\GRCDylan\GRC\GRCDomain\obj\Debug\net6.0\refint\GRC.Domain.dll
+C:\Users\drabemanantsoa\Documents\GRCDylan\GRC\GRCDomain\obj\Debug\net6.0\GRC.Domain.pdb
+C:\Users\drabemanantsoa\Documents\GRCDylan\GRC\GRCDomain\obj\Debug\net6.0\ref\GRC.Domain.dll

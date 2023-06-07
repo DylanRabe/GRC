@@ -6,7 +6,12 @@ namespace GRC.Domain;
  public class GrcContext : DbContext
     {
     private readonly IModelConfiguration modelConfiguration;
-        public GrcContext(DbContextOptions<GrcContext> options) :
+
+    public GrcContext()
+    {
+    }
+
+    public GrcContext(DbContextOptions<GrcContext> options) :
             base(options)
     
             {
@@ -14,7 +19,7 @@ namespace GRC.Domain;
             }
     //A chaque entité creer on ajoute un class configuration avec
     //Singular table name => Singular properties name
-    public DbSet<Organisation> Organisation { get; set; }
+    public DbSet<Organisation> Organisations { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

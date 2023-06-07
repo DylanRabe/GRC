@@ -1,0 +1,12 @@
+C:\Users\drabemanantsoa\Documents\GRCDylan\GRC\GRC.SharedKernel\bin\Debug\net6.0\GRC.SharedKernel.deps.json
+C:\Users\drabemanantsoa\Documents\GRCDylan\GRC\GRC.SharedKernel\bin\Debug\net6.0\GRC.SharedKernel.dll
+C:\Users\drabemanantsoa\Documents\GRCDylan\GRC\GRC.SharedKernel\bin\Debug\net6.0\GRC.SharedKernel.pdb
+C:\Users\drabemanantsoa\Documents\GRCDylan\GRC\GRC.SharedKernel\obj\Debug\net6.0\GRC.SharedKernel.csproj.AssemblyReference.cache
+C:\Users\drabemanantsoa\Documents\GRCDylan\GRC\GRC.SharedKernel\obj\Debug\net6.0\GRC.SharedKernel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\drabemanantsoa\Documents\GRCDylan\GRC\GRC.SharedKernel\obj\Debug\net6.0\GRC.SharedKernel.AssemblyInfoInputs.cache
+C:\Users\drabemanantsoa\Documents\GRCDylan\GRC\GRC.SharedKernel\obj\Debug\net6.0\GRC.SharedKernel.AssemblyInfo.cs
+C:\Users\drabemanantsoa\Documents\GRCDylan\GRC\GRC.SharedKernel\obj\Debug\net6.0\GRC.SharedKernel.csproj.CoreCompileInputs.cache
+C:\Users\drabemanantsoa\Documents\GRCDylan\GRC\GRC.SharedKernel\obj\Debug\net6.0\GRC.SharedKernel.dll
+C:\Users\drabemanantsoa\Documents\GRCDylan\GRC\GRC.SharedKernel\obj\Debug\net6.0\refint\GRC.SharedKernel.dll
+C:\Users\drabemanantsoa\Documents\GRCDylan\GRC\GRC.SharedKernel\obj\Debug\net6.0\GRC.SharedKernel.pdb
+C:\Users\drabemanantsoa\Documents\GRCDylan\GRC\GRC.SharedKernel\obj\Debug\net6.0\ref\GRC.SharedKernel.dll
