@@ -1,5 +1,6 @@
 //Apres L'infra on configure les dependences
 //quand on a finit on defini dans appsettings
+using GRC.Domain;
 using GRC.Infrastructure;
 
 
@@ -13,6 +14,7 @@ public class Program
 
         // Add services to the container. c'est Ici
         string connectionString = builder.Configuration.GetConnectionString("GRCConnection");
+        builder.Services.AddSingleton<GrcContext>();
         builder.Services.AddInfrastructure(connectionString);
         builder.Services.AddControllersWithViews();
 
