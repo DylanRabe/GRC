@@ -11,13 +11,13 @@ namespace GRC.Infrastructure;
 
 public static class ServiceRegistration
 {
-    public static IServiceCollection AddInfrastructure(this IServiceCollection services , string connectionString)
+    public static IServiceCollection AddInfrastructure(this IServiceCollection services , string ConnectionString)
     {
         //apres SqlModelconf
         services.AddSingleton<IModelConfiguration, SqlModelConfiguration>();
         services.AddDbContext<GrcContext>(options =>
         {
-            options.UseSqlServer(connectionString, sqlOptions =>
+            options.UseSqlServer(ConnectionString, sqlOptions =>
         {
             sqlOptions.MigrationsAssembly(typeof(ServiceRegistration).Assembly.FullName);
         });

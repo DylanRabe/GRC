@@ -13,5 +13,7 @@ public class Job
     public string Nom { get; set; }
 
     public Organisation organisation { get; set; }
+
+    public List<Personne> Personnes { get; set; }
 }
 

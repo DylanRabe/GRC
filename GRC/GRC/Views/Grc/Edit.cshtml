@@ -1,19 +1,15 @@
 ﻿@model GRC.Domain.Entities.Organisation
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "Modifier";
 }
 
-<h1>Edit</h1>
+<h1>Modifier</h1>
 
 <h4>Organisation</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
-        @if (ViewBag.Erreur != null)
-        {
-            <p class="alert alert-danger">@ViewBag.Erreur</p>
-        }
         <form asp-action="Edit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
@@ -27,7 +23,7 @@
                 <span asp-validation-for="Nom" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+                <input type="submit" value="Sauvegarder" class="btn btn-primary" />
             </div>
         </form>
     </div>

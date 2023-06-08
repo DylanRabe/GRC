@@ -15,3 +15,5 @@ C:\Users\drabemanantsoa\Documents\GRCDylan\GRC\GRC.Infrastructure\obj\Debug\net6
 C:\Users\drabemanantsoa\Documents\GRCDylan\GRC\GRC.Infrastructure\obj\Debug\net6.0\refint\GRC.Infrastructure.dll
 C:\Users\drabemanantsoa\Documents\GRCDylan\GRC\GRC.Infrastructure\obj\Debug\net6.0\GRC.Infrastructure.pdb
 C:\Users\drabemanantsoa\Documents\GRCDylan\GRC\GRC.Infrastructure\obj\Debug\net6.0\ref\GRC.Infrastructure.dll
+C:\Users\drabemanantsoa\Documents\GRCDylan\GRC\GRC.Infrastructure\bin\Debug\net6.0\GRC.Infrastructure.runtimeconfig.json
+C:\Users\drabemanantsoa\Documents\GRCDylan\GRC\GRC.Infrastructure\obj\Debug\net6.0\GRC.Infrastructure.genruntimeconfig.cache

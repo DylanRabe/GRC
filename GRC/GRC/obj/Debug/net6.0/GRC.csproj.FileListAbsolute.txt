@@ -293,3 +293,4 @@ C:\Users\drabemanantsoa\Documents\GRCDylan\GRC\GRC\bin\Debug\net6.0\System.CodeD
 C:\Users\drabemanantsoa\Documents\GRCDylan\GRC\GRC\bin\Debug\net6.0\System.Text.Encodings.Web.dll
 C:\Users\drabemanantsoa\Documents\GRCDylan\GRC\GRC\bin\Debug\net6.0\System.Text.Json.dll
 C:\Users\drabemanantsoa\Documents\GRCDylan\GRC\GRC\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\drabemanantsoa\Documents\GRCDylan\GRC\GRC\bin\Debug\net6.0\appsettings.Production.json

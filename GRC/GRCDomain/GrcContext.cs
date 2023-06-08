@@ -10,17 +10,21 @@ namespace GRC.Domain;
     public GrcContext()
     {
     }
-
-    public GrcContext(DbContextOptions<GrcContext> options) :
-            base(options)
-    
-            {
-                this.modelConfiguration = modelConfiguration;
-            }
     //A chaque entité creer on ajoute un class configuration avec
     //Singular table name => Singular properties name
     public DbSet<Organisation> Organisations { get; set; }
+    public DbSet<Personne> Personnes { get; set; }
 
+    public DbSet<Job> Jobs { get; set; }
+
+    public GrcContext(DbContextOptions<GrcContext> options , IModelConfiguration modelConfiguration) :
+            base(options)
+
+    {
+        this.modelConfiguration = modelConfiguration;
+    }
+
+   
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.ApplyConfigurationsFromAssembly(typeof(GrcContext).Assembly);

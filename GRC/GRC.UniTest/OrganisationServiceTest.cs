@@ -17,7 +17,7 @@ public class OrganisationServiceTest
         var options = new DbContextOptionsBuilder<GrcContext>()
             .UseInMemoryDatabase(Guid.NewGuid().ToString())
             .Options;
-        var context = new GrcContext(options);
+        var context = new GrcContext();
        // organisationService = new OrganisationService(context);
     }
 }

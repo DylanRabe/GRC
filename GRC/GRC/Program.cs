@@ -2,7 +2,7 @@
 //quand on a finit on defini dans appsettings
 using GRC.Domain;
 using GRC.Infrastructure;
-
+using Microsoft.EntityFrameworkCore;
 
 namespace GRC;
 
@@ -13,9 +13,9 @@ public class Program
         var builder = WebApplication.CreateBuilder(args);
 
         // Add services to the container. c'est Ici
-        string connectionString = builder.Configuration.GetConnectionString("GRCConnection");
-        builder.Services.AddSingleton<GrcContext>();
-        builder.Services.AddInfrastructure(connectionString);
+        string ConnectionString = builder.Configuration.GetConnectionString("GRC");
+        //builder.Services.AddDbContext<GrcContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("GRC")));
+        builder.Services.AddInfrastructure(ConnectionString);
         builder.Services.AddControllersWithViews();
 
 
@@ -39,7 +39,7 @@ public class Program
 
         app.MapControllerRoute(
             name: "default",
-            pattern: "{controller=Home}/{action=Index}/{id?}");
+            pattern: "{controller=GRC}/{action=Index}/{id?}");
 
         app.Run();
     }
